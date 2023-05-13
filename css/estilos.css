@@ -24,6 +24,19 @@ body {
     margin-bottom: 60px;
 }
 
+
+.contenedor-patrocinadores {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+
+}
+.imgen{
+    width: 350px;
+    margin:0,10px;
+}
+
 /* Header */
 
 .logotol {
