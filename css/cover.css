@@ -10,7 +10,7 @@
 
 body{
     
-    color: #ededed;
+    color: #ededed00;
 }
 
 .header{
@@ -36,7 +36,7 @@ body{
 .logotol {
     left: 0;
     top: 0;
-    width: 200px;
+    width: 180px;
     position: absolute;
 }
 
@@ -51,7 +51,7 @@ body{
 
 .navbar a:hover,
 .navbar a.active {
-    color:#00abf0;
+    color:#eedf07;
 }
 
 .home{
@@ -61,14 +61,17 @@ body{
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 3%;
 }
 
 .home-content {
-    max-width: 600px;
+    max-width: 800px;
+    
 }
 
 .home-content h1{
+    color:#fff;
+    margin-top: 100px;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2 ;
@@ -78,16 +81,17 @@ body{
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
-    color:#00abf0;
+    color:#081b29;
 }
 
 .home-content p {
     font-size: 16px;
-    margin: 20px 0 40px;
+    margin: 10px 0 40px;
 
 }
 
 .home-content .btn-box{
+    padding-bottom: 8px;
     display: flex;
     justify-content: space-between;
     width: 345px;
@@ -102,8 +106,8 @@ body{
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
-    border:2px solid #00abf0;
+    background: #eedf07;
+    border:2px solid #eedf07;
     border-radius: 8px;
     font-size: 19px;
     color: #081b29;
@@ -116,12 +120,12 @@ body{
 }
 
 .btn-box a:hover{
-    color: #00abf0;
+    color: #eedf07;
 }
 
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #00abf0;
+    color: #eedf07;
 }
 
 .btn-box a:nth-child(2):hover {
@@ -129,7 +133,7 @@ body{
 }
 
 .btn-box a:nth-child(2)::before {
-    background: #00abf0;
+    background: #eedf07;
 } 
 
 
@@ -150,6 +154,7 @@ body{
 } 
 
 .home-sci {
+    padding-top: px;
     position: absolute;
     bottom: 40px;
     width: 170px;
@@ -159,6 +164,7 @@ body{
 }
 
 .home-sci a {
+    padding-top: ;
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -166,10 +172,10 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #eedf07;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #eedf07;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -187,7 +193,7 @@ body{
     left: 0;
     width: 0%;
     height: 100%;
-    background:#00abf0;
+    background:#eedf07;
     z-index: -1;
     transition: .5s;
 }

@@ -38,6 +38,7 @@
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
 />
+<link rel="stylesheet" href="navres.css">
 
 
     <script src="https://kit.fontawesome.com/44b8a18a80.js" crossorigin="anonymous"></script>
@@ -88,16 +89,31 @@
 </a>
   
     <header>
+
         <nav>
-            <a href="/index.html">Inicio</a>
-            <a href="#quienessomos">Quienes Somos</a>
-            <a href="#objetivos">Objetivos</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#noticias">Noticias</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#Patrocinadores">Patrocinadores</a>
-            <a href="/formulario.html" >Contacto</a>
+            <a href="#"><img class="logo" src="logo.png" alt="logo"></a>
+
+            <ul class="enlaces-menu">
+
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="#quienessomos">Quienes</a></li>
+            
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#noticias">Noticias</a></li>
+           
+            <li><a href="#Patrocinadores">Patrocinadores</a></li>
+            <li><a href="/formulario.html" >Contacto</a></li>
+                
+            </ul>
+
+            <button class="ham" type="button">   
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+            </button>                       
         </nav>
+
+        
 
         <img class="logotol" src="img/logotol.png"  alt"">
         <section class="textos-header">
@@ -474,7 +490,7 @@
     </footer>
     
 
-
+    <script src="main.js"></script>
     <script src="js/jquery-1.10.2.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/script.js"></script>
