@@ -26,14 +26,14 @@ body {
 
 
 .contenedor-patrocinadores {
-    margin-top: 55px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     padding: 25px;
 
 }
 .imgen{
-    width: 350px;
+    width: 200px;
     margin:0,10px;
 }
 
